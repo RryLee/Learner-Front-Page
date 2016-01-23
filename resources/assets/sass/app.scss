@@ -1,0 +1,35 @@
+//** custom color
+@import "helpers/variables";
+//** screen width helper
+@import "helpers/screen";
+//** fonts
+@import "helpers/fonts";
+@import "node_modules/font-awesome/scss/font-awesome";
+//** mixin
+@import "helpers/mixins";
+//** import bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+//** my own style
+@import "default/custom";
+
+/************************************
+* components.
+************************************/
+//** components
+//** costom form input
+@import "components/input";
+//** site bread
+@import "components/bread";
+
+/************************************
+* modules
+************************************/
+//** nav
+@import "modules/nav";
+//** home newsletter form
+@import "modules/newsletter-from";
+//** technique module
+@import "modules/technique";
+//** footer module
+@import "modules/footer";
+
