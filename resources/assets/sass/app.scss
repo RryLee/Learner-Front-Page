@@ -20,6 +20,10 @@
 @import "components/input";
 //** site bread
 @import "components/bread";
+//** page jumbotron
+@import "components/page-jumbotron";
+//** category-tag
+@import "components/label";
 
 /************************************
 * modules
@@ -27,9 +31,12 @@
 //** nav
 @import "modules/nav";
 //** home newsletter form
-@import "modules/newsletter-from";
+@import "modules/newsletter";
 //** technique module
 @import "modules/technique";
 //** footer module
 @import "modules/footer";
 
+//** series modules -- partials
+@import "modules/series-page";
+@import "modules/series-list";

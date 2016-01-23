@@ -1,14 +1,4 @@
 .newsletter {
-    @media #{$sm} {
-        & {
-            padding: 60px 0;
-        }
-    }
-    @media #{$xs} {
-        & {
-            padding: 28px 0;
-        }
-    }
     background: $newsletter-bg-color;
     color: $newsletter-color;
     text-align: left;

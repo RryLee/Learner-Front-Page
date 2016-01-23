@@ -72,7 +72,7 @@ header nav.navbar {
 // small screen
 @media #{$xs} {
     header nav.navbar-default {
-        & .navbar-header {
+        .navbar-header {
             position: relative;
             top: 0;
             left: 0;
@@ -80,16 +80,16 @@ header nav.navbar {
             margin: 0;
             text-align: center;
             line-height: 48px;
-            transform: translateX(12.5px);
+            transform: translateX(25px);
 
-            & .learner-bread {
+            .learner-bread {
                 font-size: 20px;
             }
         }
-        & .navbar-collapse {
+        .navbar-collapse {
             z-index: 99;
             position: absolute;
-            right: 28px;
+            right: 15px;
             top: 38px;
             border: none;
             box-shadow: 0 5px 10px 2px rgba(0,0,0,.2);
@@ -100,12 +100,15 @@ header nav.navbar {
             margin: 0;
             background: #FFF;
         }
-        & .navbar-nav li a:hover {
+        .navbar-nav li a:hover {
             color: $link-hover-color;
         }
-        & .navbar-nav .active a {
+        .navbar-nav .active a {
             border: none;
             color: $link-hover-color;
+        }
+
+        .navbar-toggle {
         }
     }
 
